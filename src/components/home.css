@@ -34,7 +34,7 @@
     -webkit-background-clip: text;
     background-clip: text;
 }
-@media screen and (max-width:390px) {
+@media screen and (max-width:425px) {
     #name{
         font-size: 60px;
     }
