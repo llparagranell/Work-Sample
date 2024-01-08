@@ -1,65 +1,102 @@
-#project{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    height: 100vh;
+#project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+.project h1 {
+  font-size: 70px;
+  color: transparent;
+  background-image: linear-gradient(180deg, #ffb6ff, #b344ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.project-container {
+  float: left;
+  width: 100%;
+  padding-top: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex {
+  display: flex;
+}
+.projects {
+  width: 50vw;
+  /* display: flex;
+    flex-direction: column; */
+  /* background-color: #6344ff; */
+  padding: 4vw;
+}
+.projects img {
+  border-radius: 5px;
+}
+.mar {
+  margin-top: -15vh;
+  float: right;
+}
+.description {
+  background: transparent;
+  margin: 3vh 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.description h3 {
+  margin: 10px 0 30px 0;
+}
+.description li {
+  font-size: 1.2rem;
+  padding-bottom: 5px;
+}
+.description h2 {
+  margin-top: 5px;
+}
+.card-container {
+  display: flex;
+  margin: 6vh;
+}
+.a {
+  font-size: 30px;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.638);
+  text-decoration: none;
+  float: right;
+  margin-right: 5vw;
+  margin-top: 10px;
+}
+.a :hover {
+  scale: 1.02;
+}
 
+.p-img{
+  width: 500px;
 }
-.project h1{
-    font-size: 70px;
-    color: transparent;
-    background-image: linear-gradient(180deg, #ffb6ff, #b344ff);
-    -webkit-background-clip: text;
-    background-clip: text;
+.fl{
+ flex-direction: row-reverse;
+  margin-left: 4vw 
 }
-.card-container{
-    display: flex;
-    margin: 6vh;
-}
-.card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 22px;
-    background-color: rgba(0, 0, 0, 0.12);
-    margin: 10px;
-    padding: 60px 70px;
-    color: #6344ff;
-    border-radius: 5px;
-    box-shadow: 1px 1px 2px 1px #0000007a;
-}
-.card a{
-    list-style-type: none;
-    font-size: 40px;
-    background: transparent;
-    margin-top: 20px;
-}
-.card a:hover{
-    scale: 1.02;
-}
-.card:hover{
-    box-shadow: 1px 1px 2px 1px #000000b2;
-    scale: 1.03;
-    cursor: pointer;
-}
-@media screen and (max-width:1024px) {
-    .card{
-        padding: 50px 60px;
-    }
-}
-@media screen and (max-width: 768px){
-.card {
-    padding: 20px 30px;
-}
-}
-@media screen and (max-width:425px) {
+@media screen and (max-width:525px) {
     #project{
         height: fit-content;
     }
-    .card-container{
-        flex-direction: column;
-        text-align: center;
+    .p-img{
+      width: 300px;
+    }
+    .projects{
+      width: auto;
+    }
+    .flex{
+      flex-direction: column;
+    }
+    .description{
+      margin: 3vh 0 3vh 4vw;
+    }
+    .a{
+      font-size: 20px;
     }
 }

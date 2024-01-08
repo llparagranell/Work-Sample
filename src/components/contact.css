@@ -64,12 +64,15 @@
     background: transparent;
 
 }
-@media screen and (max-width:425px) {
+@media screen and (max-width:525px) {
     .con{
         flex-direction: column;
         padding: 15px 22px;
     }
     .search input{
         width: fit-content;
+    }
+    #contact{
+        height: 80vh;
     }
 }
