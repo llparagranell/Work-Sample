@@ -65,9 +65,17 @@
 
 }
 @media screen and (max-width:525px) {
-    .con{
+    .con {
         flex-direction: column;
         padding: 15px 22px;
+        width: 340px;
+    }
+    .search {
+      
+        width: 70vw;
+    }
+    .con p{
+        display: none;
     }
     .search input{
         width: fit-content;
