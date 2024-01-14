@@ -8,7 +8,7 @@ import { BsGithub, BsInstagram } from "react-icons/bs";
 function Home() {
   return (
     <div className="heading">
-      <div>
+      <div className="ex">
         <p id="name">Parag Rane</p>
         <p id="pro">Full Stack Developer</p>
         <p id="des">MERN stack developer with expertise in building dynamic and responsive <br /> web applications using MongoDB, Express.js, React.js, and Node.js.</p>
@@ -27,7 +27,7 @@ function Home() {
         {/* <a href="#about"><BsFillArrowDownCircleFill/></a> */}
       </div>
       <div>
-        <img id="h-img" src={user_img}/>
+        <img id="h-img" src={user_img} alt="img"/>
       </div>
     </div>
   );

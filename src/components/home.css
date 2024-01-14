@@ -44,15 +44,19 @@ font-size: 18px;
     font-size: 20px;
 
 }
-
+.ex{
+    padding: 0;
+}
 #h-img{
     width: 600;
 }
 @media screen and (max-width:525px) {
+    .ex{
+        padding: 0 6vw;
+    }
     .heading{
-        padding: 0 0 0 6vw;
         flex-direction: column-reverse;
-        height: 120vh;
+        height: fit-content;
         justify-content: center;
     }
     #h-img{
