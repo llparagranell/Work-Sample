@@ -7,3 +7,16 @@
 html {
   scroll-behavior: smooth;
 }
+
+.light-font{
+  color: lightgray;
+  font-size: 30px;
+}
+.white-font{
+  color: white;
+  font-size: 70px;
+}
+.dark-font{
+  color: darkgrey;
+  font-size: 19px;
+}

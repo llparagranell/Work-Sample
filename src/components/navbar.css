@@ -10,11 +10,12 @@ nav ul{
     display: flex;
 }
 nav ul a{
-    color: #ffb6ff;
     text-decoration: none;
     padding: 25px 30px;
-    font-size: 1rem;
     cursor: pointer;
+}
+nav ul a:hover{
+    color: white;
 }
 @media screen and (max-width:525px) {
 
@@ -22,6 +23,6 @@ nav ul a{
         justify-content: center;
     }
 nav ul a{
-    padding: 20px 15px;
+    padding: 20px 12px;
     }
 }

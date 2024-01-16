@@ -9,7 +9,7 @@ function Project() {
   return (
     <div id="project">
       <div className="project">
-        <h1>Projects</h1>
+        <h1 className="white-font">Projects</h1>
       </div>
       <div className="project-container">
         <div className="flex">
@@ -18,22 +18,22 @@ function Project() {
             <img src={img_1} alt=""  className="p-img"/>
             <img src={img_2} alt="" className="mar p-img" />
           </div>
-          <div className="description" style={{ color: "white" }}>
-            <h1> 🌟 Introducing "Tour Booking" Project 🌍</h1>
+          <div className="description">
+            <h1 className="light-font"> 🌟 Introducing "Tour Booking" Project 🌍</h1>
 
-            <h3>Tech Stack: MERN (MongoDB, Express, React, Node.js)</h3>
-            <li>🚀 Seamless booking experience for travelers</li>
-            <li>🌐 Explore stunning destinations with ease</li>
-            <li>🧳 Personalized itineraries for a unique adventure</li>
-            <li>💻 Cutting-edge web development</li>
-            <li>🌟 Join the journey of innovation!</li>
-            <h2>
+            {/* <h3 className="light-font">Tech Stack: MERN (MongoDB, Express, React, Node.js)</h3> */}
+            <li className="dark-font">🚀 Seamless booking experience for travelers</li>
+            <li className="dark-font">🌐 Explore stunning destinations with ease</li>
+            <li className="dark-font">🧳 Personalized itineraries for a unique adventure</li>
+            <li className="dark-font">💻 Cutting-edge web development</li>
+            <li className="dark-font">🌟 Join the journey of innovation!</li>
+            {/* <p className="light-font">
               #TourBooking #MERNstack #TravelTech #WebDevelopment
               #InnovationInProgress
-            </h2>
+            </p> */}
             <a
               href="https://github.com/llparagranell/tourbooking"
-              className="a"
+              className="light-font a"
             >
               Github Link <BsFillArrowRightCircleFill />
             </a>
@@ -48,18 +48,18 @@ function Project() {
             <img src={img_4} alt="" className="mar p-img" />
           </div>
           <div className="description" style={{ color:"white" }}>
-            <h1> 🌟 Introducing "Chat App" Project 🌍</h1>
+            <h1 className="light-font"> 🌟 Introducing "Chat App" Project 🌍</h1>
 
-            <h3>Tech Stack: MERN (MongoDB, Express, React, Node.js)</h3>
-            <li>🌍 Global connectivity</li>
-            <li>🔄 Real-time messaging</li>
-            <li>📱 Responsive design</li>
-            <li>💬 Personalized chats</li>
-            <li>💡 Developed on MERN stack</li>
-            <h2>#ChatApp #MERNstack #WebDevelopment #InnovationInProgress</h2>
+            {/* <p className="light-font">Tech Stack: MERN (MongoDB, Express, React, Node.js)</p> */}
+            <li className="dark-font">🌍 Global connectivity</li>
+            <li className="dark-font">🔄 Real-time messaging</li>
+            <li className="dark-font">📱 Responsive design</li>
+            <li className="dark-font">💬 Personalized chats</li>
+            <li className="dark-font">💡 Developed on MERN stack</li>
+            {/* <p className="light-font">#ChatApp #MERNstack #WebDevelopment #InnovationInProgress</p> */}
             <a
               href="https://github.com/llparagranell/tourbooking"
-              className="a"
+              className="light-font a"
             >
               Github Link <BsFillArrowRightCircleFill />
             </a>
@@ -67,35 +67,7 @@ function Project() {
         </div>
 
       </div>
-
-      {/* <div className="card-container"> */}
-      {/* <div className="card"> */}
-
-      {/* Portfolio Management{" "} */}
-      {/* <a href="https://github.com/llparagranell/Portfolio-Management" >
-            <BsFillArrowRightCircleFill />
-          </a> */}
-      {/* </div> */}
-      {/* <div className="card">
-          Tourbooking{" "}
-          <a href="https://github.com/llparagranell/tourbooking">
-            <BsFillArrowRightCircleFill />
-          </a>
-        </div>
-        <div className="card">
-          Bookstore{" "}
-          <a href="https://github.com/llparagranell/bookstore">
-            <BsFillArrowRightCircleFill />
-          </a>
-        </div>
-        <div className="card">
-          News App{" "}
-          <a href="https://github.com/llparagranell/react-news-app">
-            <BsFillArrowRightCircleFill />
-          </a>
-        </div> */}
-      {/* </div> */}
-      <a href="https://github.com/llparagranell" style={{color:"white",textDecoration:"none"}}>More projects...</a>
+      <a href="https://github.com/llparagranell" style={{textDecoration:"none"}} className="light-font">More projects...</a>
     </div>
   );
 }

@@ -7,9 +7,9 @@ function Contact() {
   return (
     <div id="contact">
       <div className="contact">
-        <h1>Contact</h1>
+        <h1 className="white-font">Contact</h1>
         <div className="con">
-          <p>Let's get connected...</p>
+          <p className="dark-font">Let's get connected...</p>
           <div className="search">
             <input type="text" placeholder="Enter your message" />
             <li>
@@ -18,9 +18,9 @@ function Contact() {
           </div>
         </div>
         <ul>
-            <a href="https://www.linkedin.com/in/parag-rane-414089243/"><FaLinkedin/></a>
-            <a href="https://github.com/llparagranell"><BsGithub/></a>
-            <a href="https://www.instagram.com/___parag___rane___/"><BsInstagram/></a>
+            <a href="https://www.linkedin.com/in/parag-rane-414089243/" className="light-font"><FaLinkedin/></a>
+            <a href="https://github.com/llparagranell" className="light-font"><BsGithub/></a>
+            <a href="https://www.instagram.com/___parag___rane___/" className="light-font"><BsInstagram/></a>
         </ul>
       </div>
     </div>

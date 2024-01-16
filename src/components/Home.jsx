@@ -9,18 +9,18 @@ function Home() {
   return (
     <div className="heading">
       <div className="ex">
-        <p id="name">Parag Rane</p>
-        <p id="pro">Full Stack Developer</p>
-        <p id="des">MERN stack developer with expertise in building dynamic and responsive <br /> web applications using MongoDB, Express.js, React.js, and Node.js.</p>
-        <p id="hash">#MongoDB  #Express.js  #React.js  #Node.js</p>
+        <p className="white-font" style={{lineHeight:"1",marginBottom:"20px"}}> Parag Rane</p>
+        <p className="light-font">Full Stack Developer</p>
+        {/* <p className="dark-font">MERN stack developer with expertise in building dynamic and responsive <br /> web applications using MongoDB, Express.js, React.js, and Node.js.</p> */}
+        <p className="dark-font">#MongoDB  #Express.js  #React.js  #Node.js</p>
         <ul style={{marginTop:"30px"}}>
-          <a href="https://www.linkedin.com/in/parag-rane-414089243/" className="home-ul-a">
+          <a href="https://www.linkedin.com/in/parag-rane-414089243/" className="light-font">
             <FaLinkedin />
           </a>
-          <a href="https://github.com/llparagranell" style={{padding:"0 25px"}}>
+          <a href="https://github.com/llparagranell" style={{padding:"0 25px"}} className="light-font">
             <BsGithub />
           </a>
-          <a href="https://www.instagram.com/___parag___rane___/" className="home-ul-a">
+          <a href="https://www.instagram.com/___parag___rane___/" className="light-font">
             <BsInstagram />
           </a>
         </ul>
