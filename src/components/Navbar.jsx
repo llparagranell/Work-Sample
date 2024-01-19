@@ -1,5 +1,5 @@
 import './navbar.css'
-import resume from '../images/parag_rane_resume.pdf'
+import resume from '../images/resume_parag.pdf'
 
 function Navbar() {
     return ( <nav>

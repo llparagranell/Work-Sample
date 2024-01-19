@@ -1,4 +1,4 @@
-import { BiSearch } from "react-icons/bi";
+import { TiTick } from "react-icons/ti";
 import "./contact.css";
 import { FaLinkedin } from "react-icons/fa";
 import { BsGithub, BsInstagram } from "react-icons/bs";
@@ -13,7 +13,7 @@ function Contact() {
           <div className="search">
             <input type="text" placeholder="Enter your message" />
             <li>
-              <BiSearch />
+            <TiTick />
             </li>
           </div>
         </div>

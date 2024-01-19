@@ -6,8 +6,13 @@
     justify-content: space-around;
     align-items: center;
 }
+.ex{
+    width: auto;
+}
 @media screen and (max-width:525px) {
-
+    .ex{
+        width: 92vw;
+    }
     .heading{
         flex-direction: column-reverse;
         height: fit-content;
