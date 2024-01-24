@@ -3,7 +3,7 @@ import resume from '../images/resume_parag.pdf'
 
 function Navbar() {
     return ( <nav>
-        <ul>
+        <ul >
             <a href='.heading' className='dark-font'>Home</a>
             <a href='#about' className='dark-font'>About</a>
             <a href='#project' className='dark-font'>Project</a>

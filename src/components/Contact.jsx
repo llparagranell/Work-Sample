@@ -18,9 +18,9 @@ function Contact() {
           </div>
         </div>
         <ul>
-            <a href="https://www.linkedin.com/in/parag-rane-414089243/" className="light-font"><FaLinkedin/></a>
-            <a href="https://github.com/llparagranell" className="light-font"><BsGithub/></a>
-            <a href="https://www.instagram.com/___parag___rane___/" className="light-font"><BsInstagram/></a>
+            <a href="https://www.linkedin.com/in/parag-rane-414089243/" className="light-font" style={{color:"blueviolet"}}><FaLinkedin/></a>
+            <a href="https://github.com/llparagranell" className="light-font" style={{color:"blueviolet"}}><BsGithub/></a>
+            <a href="https://www.instagram.com/___parag___rane___/" className="light-font" style={{color:"blueviolet"}}><BsInstagram/></a>
         </ul>
       </div>
     </div>

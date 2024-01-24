@@ -19,7 +19,7 @@ function Project() {
             <img src={img_2} alt="" className="mar p-img" />
           </div>
           <div className="description">
-            <h1 className="light-font"> 🌟 Introducing "Tour Booking" Project 🌍</h1>
+            <h1 className="light-font" > Introducing "Tour Booking" Project </h1>
 
             {/* <h3 className="light-font">Tech Stack: MERN (MongoDB, Express, React, Node.js)</h3> */}
             <li className="dark-font">🚀 Seamless booking experience for travelers</li>
@@ -34,6 +34,7 @@ function Project() {
             <a
               href="https://github.com/llparagranell/tourbooking"
               className="light-font a"
+              style={{color:"blueviolet"}}
             >
               Github Link <BsFillArrowRightCircleFill />
             </a>
@@ -48,7 +49,7 @@ function Project() {
             <img src={img_4} alt="" className="mar p-img" />
           </div>
           <div className="description" style={{ color:"white" }}>
-            <h1 className="light-font"> 🌟 Introducing "Chat App" Project 🌍</h1>
+            <h1 className="light-font"> Introducing "Chat App" Project </h1>
 
             {/* <p className="light-font">Tech Stack: MERN (MongoDB, Express, React, Node.js)</p> */}
             <li className="dark-font">🌍 Global connectivity</li>
@@ -60,8 +61,9 @@ function Project() {
             <a
               href="https://github.com/llparagranell/tourbooking"
               className="light-font a"
+              style={{color:"blueviolet",display:"flex", alignItems:'center'}}
             >
-              Github Link <BsFillArrowRightCircleFill />
+              Github Link  <BsFillArrowRightCircleFill />
             </a>
           </div>
         </div>
